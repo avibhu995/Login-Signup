@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    background:whitesmoke;
+    padding-bottom: 30px;
+ }
+ .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+ }
+ .text{
+    color: blue;
+    font-size: 40px;
+    font-weight: 700;
+ }
+ .underline{
+    width: 61px;
+    height: 6px;
+    background: blue;
+    border-radius: 9px;
+ }
+ .inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+ }
+ .input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: rgb(231, 230, 230);
+    border-radius: 6px;
+ }
+ .input img{
+    margin: 0px 30px;
+ }
+ .input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(75, 74, 74);
+    font-size: 19px;
+ }
+
+ .forgot-password{
+    padding-left: 62px;
+    margin-top:27px;
+    color: rgb(15, 14, 14);
+    font-size: 18px;
+    text-align: center;
+ }
+ .forgot-password span{
+    color: blue;
+    cursor: pointer;
+ }
+ .submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto ;
+    margin-top: 30px
+ }
+ .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: white;
+    background: blue;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+ }
+ .gray{
+    background:white;
+    color: rgb(22, 22, 22);
+ }
+ .facebook{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(239, 237, 237);
+    background: rgb(7, 7, 107);
+    width: 390px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 130px;
+ }
+ .facebook img{
+    margin-right: 2%;
+    color: white;
+    background-color: white;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 3px;
+ }
+ .google{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(16, 15, 15);
+    background: rgb(227, 227, 250);
+    width: 390px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 130px;
+    
+
+ }
+ .google img{
+    margin-right: 20px;
+    color: white;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 3px;
+ }
+ .Seperate{
+   margin-left: 300px;
+   font-weight: 600;
+   font-size: large;
+ }
+
+ 
